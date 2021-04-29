@@ -4,7 +4,7 @@
 using namespace std;
 
 vector<vector<int> > graph;
-vector<int> b;
+vector<int> check;
 
 void Graph(int size)
 {
@@ -12,7 +12,7 @@ void Graph(int size)
     {
         vector<int> g;
         graph.push_back(g);
-        b.push_back(0);
+        check.push_back(0);
     }
 }
 
@@ -30,14 +30,14 @@ void BFS(int FirstNode)
     {
         int thisNode = q.front();
         q.pop();
-        if (b[thisNode] == 0)
+        if (check[thisNode] == 0)
         {
             for (int i = 0; i < graph[thisNode].size(); i++)
             {
                 q.push(graph[thisNode][i]);
             }
             cout << thisNode << " ";
-            b[thisNode] = 1;
+            check[thisNode] = 1;
         }
     }
 }

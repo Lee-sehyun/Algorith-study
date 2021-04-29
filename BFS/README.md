@@ -16,3 +16,30 @@ BFS (Breadth-First Searsh)
     2. 이웃의 노드들을 큐에 삽입한다. 
     3. 큐의 노드를 하나씩 빼서 2번을 반복한다.
     4. 큐가 비어질 때까지 2번부터 반복한다.
+
+구현 예시) [코드](BFS.cpp)
+
+<pre>
+<code>
+void BFS(int FirstNode)
+{
+    queue<int> q;       // --> queue를 이용해서 BFS를 만든다.
+    q.push(FirstNode);      // --> 1번
+
+    while (!q.empty())      // --> queue가 비어질때까지 반복한다. (4번)
+    {
+        int thisNode = q.front();       // --> queue에서 하나를 뺀다.
+        q.pop();
+        if (b[thisNode] == 0)       // --> 만약 방문하지 않은 노드라면,
+        {
+            for (int i = 0; i < graph[thisNode].size(); i++)
+            {
+                q.push(graph[thisNode][i]);         // --> 이웃의 노드를 queue에 넣어준다 (2번)
+            }
+            cout << thisNode << " ";
+            check[thisNode] = 1;        // --> 노드를 방문했음을 체크한다.
+        }
+    }
+}
+</code>
+</pre>
