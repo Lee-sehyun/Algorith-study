@@ -65,4 +65,6 @@ int main()
     cout << endl;
     BFS(0);
     cout << endl;
+
+    return 0;
 }
