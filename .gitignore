@@ -1,2 +1,11 @@
+.gitignore
 .DS_Store
 .vscode
+
+
+
+
+
+
+# 아직 만들고 있는 중!
+LinkedlistStack.cpp

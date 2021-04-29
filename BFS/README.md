@@ -30,7 +30,7 @@ void BFS(int FirstNode)
     {
         int thisNode = q.front();       // --> queue에서 하나를 뺀다.
         q.pop();
-        if (b[thisNode] == 0)       // --> 만약 방문하지 않은 노드라면,
+        if (check[thisNode] == 0)       // --> 만약 방문하지 않은 노드라면,
         {
             for (int i = 0; i < graph[thisNode].size(); i++)
             {
