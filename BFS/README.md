@@ -17,7 +17,8 @@ BFS (Breadth-First Searsh)
     3. 큐의 노드를 하나씩 빼서 2번을 반복한다.
     4. 큐가 비어질 때까지 2번부터 반복한다.
 
-구현 예시) [코드](BFS.cpp)
+구현 예시) 
+* [BFS 코드](BFS.cpp)
 
 <pre>
 <code>
