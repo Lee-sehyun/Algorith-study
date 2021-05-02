@@ -19,7 +19,8 @@ Tree(트리)
 Graph(그래프)
 -------------
 * [Graph link](Graph(그래프))
-* [graph.cpp link](Graph(그래프)/graph.cpp)
+* [graph_matrix.cpp link](Graph(그래프)/graph_matrix.cpp)
+* [graph_list.cpp link](Graph(그래프)/graph_list.cpp)
 
 --------------------------------------------------
 

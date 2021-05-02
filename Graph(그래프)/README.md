@@ -1,4 +1,4 @@
-Tree
+Graph
 ========================
 
 그래프를 구현하기 위한 방법
@@ -27,6 +27,7 @@ list 무방향 그래프 <br>
 <br>
 
 구현 예시) 
-* [그래프 코드](graph.cpp)
+* [행렬 그래프 코드](graph_matrix.cpp)
+* [list 그래프 코드](graph_list.cpp)
 
 결과값<br>
