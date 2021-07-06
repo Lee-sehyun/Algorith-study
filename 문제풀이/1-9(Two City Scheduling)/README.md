@@ -8,3 +8,6 @@ A도시와 B도시에 같은 숫자의 사람이 가는데, 그 cost의 값이 �
 <br/>
 <br/>
 문제 주제 : 그리디, 정렬.
+
+링크
+https://leetcode.com/problems/two-city-scheduling
