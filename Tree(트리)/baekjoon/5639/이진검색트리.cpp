@@ -160,22 +160,15 @@ public:
 
 int main()
 {
-    tree<char> t;
-    t.insert('D');
-    t.insert('B');
-    t.insert('A');
-    t.insert('C');
-    t.insert('F');
-    t.insert('E');
-    t.insert('G');
-    /*
-                4
-        2               6
-    1       3       5       7
-    */
+    tree<int> t;
+    int k;
 
-    t.preorder();
-    t.inorder();
+    while (cin >> k)
+    {
+        // cout << k << "\n";
+        t.insert(k);
+    }
+
     t.postorder();
 
     return 0;
