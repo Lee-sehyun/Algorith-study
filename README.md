@@ -57,4 +57,4 @@
 
 문제풀이
 -------------
-* [1-9 : Two City Scheduling](문제풀이/1-9(Two City Scheduling))
+* [1-9 : Two City Scheduling]("문제풀이/1-9(Two City Scheduling)")
