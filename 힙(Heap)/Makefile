@@ -1,6 +1,6 @@
 CC = g++
 
-arraystack: Heap.cpp
+Heap: Heap.cpp
 	g++ Heap.cpp -o Heap
 	
 clean:
