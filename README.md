@@ -57,4 +57,5 @@
 
 문제풀이
 -------------
+* [1-1 : 음계](문제풀이/1-1(음계))
 * [1-9 : Two City Scheduling](문제풀이/1-9(TwoCityScheduling))
