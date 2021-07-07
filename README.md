@@ -59,4 +59,5 @@
 -------------
 * [1-1 : 음계](문제풀이/1-1(음계))
 * [1-2 : 스킬트리](문제풀이/1-2(스킬트리))
+* [1-3 : Assign Cookies](문제풀이/1-3(AssignCookies))
 * [1-9 : Two City Scheduling](문제풀이/1-9(TwoCityScheduling))
